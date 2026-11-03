@@ -118,7 +118,7 @@ img {
     min-height: 620px;
     background:
         linear-gradient(90deg, rgba(4,20,49,0.93), rgba(7,35,76,0.66)),
-        url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1800&q=85') center/cover;
+        url('project-01.jpg') center/cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -676,4 +676,26 @@ img {
     .project-card {
         height: 210px;
     }
+}
+
+
+.credit {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.prexora-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    background: linear-gradient(135deg, #482080, #7629a8);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.prexora-btn:hover {
+    background: #176ac5;
+    transform: translateY(-2px);
 }
